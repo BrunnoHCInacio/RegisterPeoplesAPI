@@ -1,0 +1,13 @@
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\RegisterPeoples.deps.json
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\RegisterPeoples.runtimeconfig.json
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\RegisterPeoples.runtimeconfig.dev.json
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\bin\Debug\netcoreapp2.2\RegisterPeoples.dll
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\obj\Debug\netcoreapp2.2\RegisterPeoples.csprojAssemblyReference.cache
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\obj\Debug\netcoreapp2.2\RegisterPeoples.RazorAssemblyInfo.cache
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\obj\Debug\netcoreapp2.2\RegisterPeoples.RazorAssemblyInfo.cs
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\obj\Debug\netcoreapp2.2\RegisterPeoples.AssemblyInfoInputs.cache
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\obj\Debug\netcoreapp2.2\RegisterPeoples.AssemblyInfo.cs
+C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegisterPeoples\RegisterPeoples\obj\Debug\netcoreapp2.2\RegisterPeoples.RazorTargetAssemblyInfo.cache
