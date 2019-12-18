@@ -6,10 +6,16 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using RegisterPeoples.Context;
+using RegisterPeoples.Interfaces;
+using RegisterPeoples.Notifications;
+using RegisterPeoples.Repository;
+using RegisterPeoples.Services;
 
 namespace RegisterPeoples
 {
@@ -25,7 +31,16 @@ namespace RegisterPeoples
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<AppDbContext>(options => options.UseInMemoryDatabase("DataBase"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
+
+            services.AddScoped<AppDbContext>();
+            services.AddScoped<IPeopleRepository, PeopleRepository>();
+            services.AddScoped<IAddressRepository, AddressRepository>();
+            services.AddScoped<INotifier, Notifier>();
+            services.AddScoped<IPeopleService, PeopleService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

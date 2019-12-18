@@ -7,7 +7,7 @@ namespace RegisterPeoples.Models
 {
     public class Entity
     {
-        public Entity()
+        protected Entity()
         {
             Id = Guid.NewGuid();
         }

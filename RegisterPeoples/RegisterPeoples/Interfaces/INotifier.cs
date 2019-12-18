@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace RegisterPeoples.Interfaces
 {
-    interface INotifier
+    public interface INotifier
     {
-        Task HasNotification();
-        Task Handle(Notification notification);
-        Task<IEnumerable<Notification>> GetNotifications();
+        bool HasNotification();
+        void Handle(Notification notification);
+        List<Notification> GetNotifications();
     }
 }

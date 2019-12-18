@@ -1,4 +1,5 @@
 ﻿using RegisterPeoples.Models;
+using RegisterPeoples.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace RegisterPeoples.Interfaces
 {
-    public interface IPeopleRepository : IRepository<People>
+    public interface IAddressRepository : IRepository<Address> 
     {
-        Task<IEnumerable<People>> GetPeoplesAddress();
+        Task<Address> getAddressByPeople();
     }
 }

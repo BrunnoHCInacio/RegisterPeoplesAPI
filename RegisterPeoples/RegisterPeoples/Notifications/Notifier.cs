@@ -8,20 +8,26 @@ namespace RegisterPeoples.Notifications
 {
     public class Notifier : INotifier
     {
-        public List<Notification> Notifications { get; set; }
-        public Task<IEnumerable<Notification>> GetNotifications()
+        private List<Notification> _notifications;
+
+        public Notifier()
         {
-            throw new NotImplementedException();
+            _notifications = new List<Notification>();
         }
 
-        public Task Handle(Notification notification)
+        public List<Notification> GetNotifications()
         {
-            Notifications.Add(notification);
+            return _notifications;
         }
 
-        public Task<bool> HasNotification()
+        public void Handle(Notification notification)
         {
-            return Notifications.Any();
+            _notifications.Add(notification);
+        }
+
+        public bool HasNotification()
+        {
+            return _notifications.Any();
         }
     }
 }

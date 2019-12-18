@@ -1,31 +1,37 @@
 ﻿using RegisterPeoples.Interfaces;
 using RegisterPeoples.Models;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace RegisterPeoples.Services
 {
-    public class PeopleService : IService<People>
+    public class PeopleService : BaseService, IPeopleService
     {
+        private readonly IPeopleRepository _peopleRepository;
+        private readonly IAddressRepository _addressRepository;
 
-        private readonly AddressService _addressService;
-
-        public PeopleService(AddressService addressService)
+        public PeopleService( IPeopleRepository peopleRepository, 
+                              IAddressRepository addressRepository, 
+                              INotifier notifier ): base(notifier)
         {
-            _addressService = addressService;
+            _peopleRepository = peopleRepository;
+            _addressRepository = addressRepository;
         }
 
         public async Task Add(People people)
         {
-
-            throw new NotImplementedException();
+            if(_peopleRepository.Buscar(p=>p.Cpf == people.Cpf).Result.Any())
+            {
+                Notify("Já existe um registro com este cpf");
+                return;
+            }
+            await _addressRepository.Add(people.Address);
+            await _peopleRepository.Add(people);
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _peopleRepository.Dispose();
         }
     }
 }

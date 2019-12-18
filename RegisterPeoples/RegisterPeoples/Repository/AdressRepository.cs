@@ -8,24 +8,13 @@ using System.Threading.Tasks;
 
 namespace RegisterPeoples.Repository
 {
-    public class AdressRepository : IRepository<Address>
+    public class AddressRepository : Repository<Address>, IAddressRepository
     {
-        private readonly AppDbContext _context;
+        public AddressRepository(AppDbContext context) : base(context) {}
 
-        public AdressRepository(AppDbContext context)
+        public Task<Address> getAddressByPeople()
         {
-            _context = context;
-        }
-
-        public async Task Add(Address address)
-        {
-            _context.Addresses.Add(address);
-            await _context.SaveChangesAsync();
-        }
-
-        public void Dispose()
-        {
-            _context.Dispose();
+            throw new NotImplementedException();
         }
     }
 }

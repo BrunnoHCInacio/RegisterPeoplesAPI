@@ -1,12 +1,13 @@
-﻿using System;
+﻿using RegisterPeoples.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace RegisterPeoples.Interfaces
 {
-    interface IService<TEntity> : IDisposable
+    public interface IPeopleService : IDisposable
     {
-        Task Add(TEntity entity);
+        Task Add(People people);
     }
 }

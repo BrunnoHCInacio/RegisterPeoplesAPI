@@ -3,31 +3,46 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using RegisterPeoples.Interfaces;
 using RegisterPeoples.Models;
 
 namespace RegisterPeoples.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/peoples")]
     public class PeoplesController : MainController
     {
-        private readonly AddressRe
+        private readonly IPeopleRepository _peopleRepository;
+        private readonly IPeopleService _peopleService;
+
+        public PeoplesController(IPeopleRepository peopleRepository, 
+                                 IPeopleService peopleService,
+                                 INotifier notifier ) : base(notifier)
+        {
+            _peopleRepository = peopleRepository;
+            _peopleService = peopleService;
+        }
+
         [HttpGet]
         public ActionResult<IEnumerable<string>> GetAll()
         {
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
         [HttpGet("{id:guid}")]
-        public ActionResult<People> GetById(Guid id)
+        public void GetById(Guid id)
         {
-            return ;
+            
         }
 
         // POST api/values
         [HttpPost]
-        public void Add(string value)
+        public async Task<ActionResult> Add(People people)
         {
+            if (!ModelState.IsValid) return CustomResponse(ModelState);
+
+            await _peopleService.Add(people);
+
+            return CustomResponse(people);
         }
 
         // PUT api/values/5

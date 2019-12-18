@@ -1,4 +1,5 @@
-﻿using RegisterPeoples.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using RegisterPeoples.Context;
 using RegisterPeoples.Interfaces;
 using RegisterPeoples.Models;
 using System;
@@ -10,7 +11,7 @@ namespace RegisterPeoples.Repository
 {
     public class PeopleRepository : Repository<People>, IPeopleRepository
     {
-        public PeopleRepository(AppDbContext context) : base(context) {}
+        public PeopleRepository(AppDbContext context) : base(context) { }
 
         public Task<IEnumerable<People>> GetPeoplesAddress()
         {
