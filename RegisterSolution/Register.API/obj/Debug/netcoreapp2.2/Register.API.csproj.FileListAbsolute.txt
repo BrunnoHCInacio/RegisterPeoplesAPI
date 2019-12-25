@@ -1,16 +1,32 @@
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\appsettings.json
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\Register.API.deps.json
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\Register.API.runtimeconfig.json
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\Register.API.runtimeconfig.dev.json
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\Register.API.dll
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\bin\Debug\netcoreapp2.2\Register.API.pdb
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.csprojAssemblyReference.cache
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.RazorAssemblyInfo.cache
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.RazorAssemblyInfo.cs
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.AssemblyInfoInputs.cache
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.AssemblyInfo.cs
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.RazorTargetAssemblyInfo.cache
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.dll
-C:\Users\GS\Documents\dev\Arquivos importantes\Aquivos Teste\Projetos\RegistersAPI\RegisterSolution\Register.API\obj\Debug\netcoreapp2.2\Register.API.pdb
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/appsettings.Development.json
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/appsettings.json
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.deps.json
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.runtimeconfig.json
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.runtimeconfig.dev.json
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.dll
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.pdb
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.csprojAssemblyReference.cache
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.RazorAssemblyInfo.cache
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.RazorAssemblyInfo.cs
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.AssemblyInfoInputs.cache
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.AssemblyInfo.cs
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.RazorTargetAssemblyInfo.cache
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.dll
+C:/Users/GS/Documents/dev/Arquivos importantes/Aquivos Teste/Projetos/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.pdb
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.csprojAssemblyReference.cache
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.RazorAssemblyInfo.cache
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.RazorAssemblyInfo.cs
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.AssemblyInfoInputs.cache
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.AssemblyInfo.cs
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.dll
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.pdb
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/appsettings.Development.json
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/appsettings.json
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Properties/launchSettings.json
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.deps.json
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.runtimeconfig.json
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.runtimeconfig.dev.json
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.dll
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/bin/Debug/netcoreapp2.2/Register.API.pdb
+/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/Debug/netcoreapp2.2/Register.API.RazorTargetAssemblyInfo.cache

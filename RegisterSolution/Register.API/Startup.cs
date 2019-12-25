@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Register.API.Configurations;
 using Register.API.Context;
 using Register.API.Interfaces;
 using Register.API.Repositories;
@@ -28,18 +29,16 @@ namespace Register.API
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+
         public void ConfigureServices(IServiceCollection services)
         {
-            // Depois gerar a conexão com o banco e as migrations
-            // services.AddDbContext<AppDbContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDbContext<AppDbContext>( options => options.UseInMemoryDatabase());
+            services.AddDbContext<AppDbContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddAutoMapper(typeof(Startup));
             
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-
-            //services.AddScoped<IRepository, Repository>();
+            services.ResolveDependencies();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

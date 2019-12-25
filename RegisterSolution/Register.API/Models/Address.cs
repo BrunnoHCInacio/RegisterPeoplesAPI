@@ -14,7 +14,7 @@ namespace Register.API.Models
         public string District { get; set; }
         public string City { get; set; }
         public string State { get; set; }
-        public string Contry { get; set; }
+        public string Country { get; set; }
         public string ZipCode { get; set; }
 
         public Provider Provider { get; set; }

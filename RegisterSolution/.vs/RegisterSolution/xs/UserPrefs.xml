@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{1CB803EE-6E22-45EE-8C90-1130C643BB85}|Default">
+  <MonoDevelop.Ide.ItemProperties.Register.API PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Register.API/Mappings/ProviderMapping.cs">
+    <Files>
+      <File FileName="Register.API/ViewModels/AddressViewModel.cs" Line="1" Column="1" />
+      <File FileName="Register.API/Mappings/AddressMapping.cs" />
+      <File FileName="Register.API/Register.API.csproj" />
+      <File FileName="Register.API/Mappings/ProviderMapping.cs" Line="19" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RegisterSolution" expanded="True">
+            <Node name="Register.API" expanded="True">
+              <Node name="Mappings" selected="True" />
+              <Node name="ViewModels" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

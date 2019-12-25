@@ -39,7 +39,7 @@ namespace Register.API.ViewModels
         [Required(ErrorMessage = "O país deve ser informado")]
         [StringLength(50, ErrorMessage = "O país deve conter entre {2} e {1} caracteres",
                       MinimumLength = 2)]
-        public string Contry { get; set; }
+        public string Country { get; set; }
 
         [Required(ErrorMessage = "O CEP deve ser informado")]
         [StringLength(8, ErrorMessage = "O CEP deve conter entre {2} e {1} caracteres",

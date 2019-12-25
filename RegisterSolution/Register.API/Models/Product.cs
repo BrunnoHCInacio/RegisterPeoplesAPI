@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Register.API.Models
 {
-    public class Product
+    public class Product : Entity
     {
         public Guid ProviderId { get; set; }
         public string Name { get; set; }
