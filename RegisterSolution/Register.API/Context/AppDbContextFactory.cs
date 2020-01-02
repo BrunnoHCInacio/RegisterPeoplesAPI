@@ -12,7 +12,7 @@ namespace Register.API.Context
 		{
 			string environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 			IConfiguration config = new ConfigurationBuilder()
-				.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "Register.API"))
+				.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../Register.API"))
 				.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
 				.AddJsonFile($"appsettings.{environment}.json", optional: true)
 				.AddEnvironmentVariables()

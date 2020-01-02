@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Register.API.Interfaces;
+using Register.API.Notifications;
 
 namespace Register.API.Controllers
 {
@@ -12,15 +13,26 @@ namespace Register.API.Controllers
     public abstract class MainController : ControllerBase
     {
         private readonly INotifier _notifier;
+        public readonly IUser AppUser;
 
-        public MainController(INotifier notifier)
+        public bool UserIsAutenticate { get; set; }
+        public Guid UserId { get; set; }
+
+        public MainController(INotifier notifier, IUser appUser)
         {
             _notifier = notifier;
+            AppUser = appUser;
+
+            if (appUser.IsAuthenticated())
+            {
+                UserIsAutenticate = true;
+                UserId = appUser.GetUserId();
+            }
         }
 
-        public bool OperacaoValida()
+        private bool OperacaoValida()
         {
-            return _notifier.HasNotification();
+            return !_notifier.HasNotification();
         }
 
         protected ActionResult CustomResponse(object result = null)
@@ -36,7 +48,7 @@ namespace Register.API.Controllers
             return BadRequest(new
             {
                 success = false,
-                errors = _notifier.GetNotifications().SelectMany(n => n.Message)
+                errors = _notifier.GetNotifications().Select(n => n.Message)
             });
         }
 
@@ -49,7 +61,20 @@ namespace Register.API.Controllers
 
         protected void NotifyErrorModelState(ModelStateDictionary modelState)
         {
-            //var error = modelState
+            var errors = modelState.Values.SelectMany(e => e.Errors);
+            foreach (var error in errors)
+            {
+                var errorMessage = error.Exception == null 
+                                    ? error.ErrorMessage 
+                                    : error.Exception.Message;
+                Notify(errorMessage);
+   
+            }
+        }
+
+        protected void Notify(string message)
+        {
+            _notifier.Handle(new Notification(message));
         }
     }
 }

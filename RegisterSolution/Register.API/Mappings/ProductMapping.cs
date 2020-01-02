@@ -23,7 +23,7 @@ namespace Register.API.Mappings
                 .IsRequired()
                 .HasColumnType("varchar(100)");
 
-            builder.ToTable("Produtos");
+            builder.ToTable("Produts");
         }
     }
 }

@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/Register.API.csproj": {}
+    "C:\\Users\\BRUNO\\Documents\\dev\\Labs\\RegistersAPI\\RegisterSolution\\Register.API\\Register.API.csproj": {}
   },
   "projects": {
-    "/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/Register.API.csproj": {
+    "C:\\Users\\BRUNO\\Documents\\dev\\Labs\\RegistersAPI\\RegisterSolution\\Register.API\\Register.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/Register.API.csproj",
+        "projectUniqueName": "C:\\Users\\BRUNO\\Documents\\dev\\Labs\\RegistersAPI\\RegisterSolution\\Register.API\\Register.API.csproj",
         "projectName": "Register.API",
-        "projectPath": "/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/Register.API.csproj",
-        "packagesPath": "/Users/Brunno/.nuget/packages/",
-        "outputPath": "/Users/Brunno/Labs/RegistersAPI/RegisterSolution/Register.API/obj/",
+        "projectPath": "C:\\Users\\BRUNO\\Documents\\dev\\Labs\\RegistersAPI\\RegisterSolution\\Register.API\\Register.API.csproj",
+        "packagesPath": "C:\\Users\\BRUNO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BRUNO\\Documents\\dev\\Labs\\RegistersAPI\\RegisterSolution\\Register.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/Brunno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\BRUNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,7 +107,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

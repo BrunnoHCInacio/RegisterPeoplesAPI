@@ -26,7 +26,7 @@ namespace Register.API.ViewModels
         public bool Active { get; set; }
 
         [ScaffoldColumn(false)]
-        public string NomeFornecedor { get; set; }
+        public string ProviderName { get; set; }
 
     }
 }

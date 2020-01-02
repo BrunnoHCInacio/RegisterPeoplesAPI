@@ -13,7 +13,11 @@ namespace Register.API.Configurations
         public AutoMapperConfig()
         {
             CreateMap<Provider, ProviderViewModel>().ReverseMap();
-            CreateMap<Product, ProductViewModel>().ReverseMap();
+            CreateMap<Product, ProductViewModel>()
+                .ForMember(dest =>dest.ProviderName, 
+                           option => option.MapFrom(src => src.Provider.Name));
+            CreateMap<ProductViewModel, Product>();
+            CreateMap<ProductImageViewModel, Product>().ReverseMap();
             CreateMap<Address, AddressViewModel>().ReverseMap();
         }
     }
